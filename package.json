@@ -1,0 +1,18 @@
+{
+  "name": "blurts-logo-compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index > stats.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "bytes": "^3.1.2"
+  }
+}
